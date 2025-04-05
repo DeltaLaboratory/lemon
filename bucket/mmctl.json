@@ -1,12 +1,12 @@
 {
-    "version": "10.5.1",
+    "version": "10.6.1",
     "description": "mattermost cli tool",
     "homepage": "https://github.com/mattermost/mattermost",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://releases.mattermost.com/mmctl/v10.5.1/windows_amd64.zip",
-            "hash": "9d575cca1791c99f89a4a96257d7457993cf80087daff383fe46ee1a69605ee8"
+            "url": "https://releases.mattermost.com/mmctl/v10.6.1/windows_amd64.zip",
+            "hash": "f80882cfa68197d242a2183ba6379d288366925e206a6761e330e00830918688"
         }
     },
     "bin": "mmctl.exe",
