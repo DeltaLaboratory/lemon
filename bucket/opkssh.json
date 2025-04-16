@@ -1,24 +1,24 @@
 {
-  "version": "0.4.0",
-  "description": "OpenPubkey SSH",
-  "homepage": "https://github.com/openpubkey/opkssh",
-  "license": "Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/openpubkey/opkssh/releases/download/v0.4.0/opkssh-windows-amd64.exe",
-      "hash": "2ce152f1c5e62201b34d7012d14a67ace4db62de914ce1a9a4dc3d36335b56e0"
-    }
-  },
-  "bin": "opkssh.exe",
-  "pre_install": "Rename-Item \"$dir\\opkssh-windows-amd64.exe\" \"$dir\\opkssh.exe\"",
-  "checkver": {
-    "github": "https://github.com/openpubkey/opkssh"
-  },
-  "autoupdate": {
+    "version": "0.5.1",
+    "description": "OpenPubkey SSH",
+    "homepage": "https://github.com/openpubkey/opkssh",
+    "license": "Apache-2.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/openpubkey/opkssh/releases/download/v$version/opkssh-windows-amd64.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/openpubkey/opkssh/releases/download/v0.5.1/opkssh-windows-amd64.exe",
+            "hash": "ddd11d8beb15677c269eba8101b8cfb19a3cf5f85db8afb8c34c0f303c8131e3"
+        }
+    },
+    "bin": "opkssh.exe",
+    "pre_install": "Rename-Item \"$dir\\opkssh-windows-amd64.exe\" \"$dir\\opkssh.exe\"",
+    "checkver": {
+        "github": "https://github.com/openpubkey/opkssh"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/openpubkey/opkssh/releases/download/v$version/opkssh-windows-amd64.exe"
+            }
+        }
     }
-  }
 }
